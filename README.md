@@ -1,4 +1,4 @@
- { ethers } = require("ethers");
+const { ethers } = require("ethers");
 
 const wallet = ethers.Wallet.createRandom();
 const message = "Hello Web3!";
