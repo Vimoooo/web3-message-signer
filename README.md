@@ -13,4 +13,4 @@ async function main() {
   console.log("Verified:", recovered === wallet.address);
 }
 
-();
+main();
