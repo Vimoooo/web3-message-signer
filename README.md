@@ -10,7 +10,7 @@ async function main() {
   console.log("Wallet:", wallet.address);
   console.log("Message:", message);
   console.log("Signature:", signature);
-  console.log(":", recovered === wallet.address);
+  console.log("Verified:", recovered === wallet.address);
 }
 
 main();
